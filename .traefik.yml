@@ -1,0 +1,11 @@
+displayName: mTLS PEM Header Plugin
+type: middleware
+iconPath: .assets/icon.png
+
+import: github.com/apkatsikas/traefik-plugin-mtls-pem-header
+
+summary: 'Forward client mTLS certificate as PEM in a header'
+testData:
+  headers:
+    ssl-client-cert: '[[pemCert .Cert]]'
+  encodeUrl: true
