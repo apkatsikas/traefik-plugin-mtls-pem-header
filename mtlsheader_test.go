@@ -1,5 +1,5 @@
-// Package traefik_plugin_mtls_header_test a test suit for custom header plugin
-package traefik_plugin_mtls_header //nolint:revive,stylecheck
+// Package traefik_plugin_mtls_pem_header a test suite for custom header plugin
+package traefik_plugin_mtls_pem_header //nolint:revive,stylecheck
 
 import (
 	"context"

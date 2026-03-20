@@ -1,5 +1,5 @@
-// Package traefik_plugin_mtls_header a custom header plugin
-package traefik_plugin_mtls_header //nolint:revive,stylecheck
+// Package traefik_plugin_mtls_pem_header a custom header plugin
+package traefik_plugin_mtls_pem_header //nolint:revive,stylecheck
 
 import (
 	"bytes"
